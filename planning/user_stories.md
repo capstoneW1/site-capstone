@@ -16,7 +16,15 @@ Pod Members: Jenny Lee, Aligary Patawaran, Dylan Cocoletzi
 
 ## User Personas
 
-Include at least 2 personas per User Role
+Reseller
+1. Ian is a local reseller in Los Angeles who just opened their brand new retail store Codepath Kicks at Melrose. He is a 19 years old entrepreneur who as a kid loved the shoe world and is ready to pursue his passion. The most important part of being a successful reseller is to have wide size ranges, shoe options, and new exclusive shoes. He is using our sneaker webpage to see when shoes are dropping, check the market price when selling and trading shoes, and where to obtain the new releases. He will mainly use our webpage on his phone in hopes of building his business.
+2. Charlie is a 40-year-old reseller who can’t sell any shoes because he is unfamiliar with today’s mainstream fashion. He will be using our app to explore sneaker trends to update his inventory in hopes of being able to make money again. 
+
+Everyday Consumer
+1. John, a 20-something-year-old, is looking to purchase his first pair of Jordans. He has not done much research on which sneakers he wants. He is looking to purchase a pair in the next 2 months. John will be using our webpage on his desktop to research which shoes fit his style and budget. Since he has little knowledge of the sneaker world, he will be using our app to see which shoes are popular. 
+2. Elizabeth is a mother of two teenagers. She is looking forward to buying them some new sneakers for the upcoming school year. She will be using our website to look for sneakers within a specific price range for a size 8 and a size 6. She hopes to find something that is trending and stylish.
+
+
 
 ## User Stories
 
