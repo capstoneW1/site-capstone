@@ -4,8 +4,8 @@ Pod Members: Jenny Lee, Aligary Patawaran, Dylan Cocoletzi
 
 ## Problem Statement
 
-People struggle keeping up with the new sneaker releases and have to resort to paying highly inflated prices.
-Target user: people who are interested in purchasing sneakers
+- People struggle keeping up with the new sneaker releases and have to resort to paying highly inflated prices.
+- Target audience: people who are interested in purchasing sneakers
 
 
 ## User Roles
