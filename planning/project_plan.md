@@ -58,78 +58,51 @@ List all the pages and screens in the app. Include wireframes for at least 3 of 
 Describe your app's data model using diagrams or tables
 
 **User table**
------------------------------------------------
 | Column name |  type  |      description     |
------------------------------------------------
+|---|---|---|
 |     id      | number |     Primary key      |
------------------------------------------------
 |    email    | string | User’s email address |
------------------------------------------------
 |   password  | string |    User’s password   |
------------------------------------------------
 |  first_name | string |   User’s first name  |
------------------------------------------------
 |  last_name  | string |   User’s last name   |
------------------------------------------------
 
 
 
 **User Wishlist item**
-----------------------------------------------------------------------------
 | Column name |  type  |                     description                   |
-----------------------------------------------------------------------------
+|---|---|---|
 |     id      | number |                    Primary key                    |
-----------------------------------------------------------------------------
 |   user_id   | number | Foreign key references User(id) on delete cascade |
-----------------------------------------------------------------------------
 |   shoe_id   | number | Foreign key references Shoe(id) on delete cascade |
-----------------------------------------------------------------------------
 
 
 
 **Shoe table**
-------------------------------------------------
-|   olumn name |   type  |     description     |
-------------------------------------------------
+|   Column name |   type  |     description     |
+|---|---|---|
 |      id      | number  |    Primary key      | 
-------------------------------------------------
 |      name    | string  | Name of shoe model  |
-------------------------------------------------
 |    brand     | string  |    Brand of shoe    |
-------------------------------------------------
 | release_date |  date   |  Shoe release date  |
-------------------------------------------------
 | description  | string  | Description of shoe |
-------------------------------------------------
 |     price    | number  |   Price of shoe     |
-------------------------------------------------
 |    img_url   |  text   |     Image url       | 
-------------------------------------------------
 
 
 ## Endpoints
 
 List the API endpoints you will need to implement.
 
----------------------------------------------------------------------------------------
 |  CRUD  | HTTP Verb |            Description           |        User Stories         |
----------------------------------------------------------------------------------------
+|---|---|---|---|
 |  Read  |    GET    |    Get a shoe by search term     |       1,2,3,5,10,11,15      |
----------------------------------------------------------------------------------------
 | Create |    POST   |     Create a new user account    |              7              |
----------------------------------------------------------------------------------------
 |  Read  |    GET    |        List trending shoes       |       1,2,4,5,6,10,11       |
----------------------------------------------------------------------------------------
 | Update |   POST    |      Add shoe to wishlist        |            7,8              |
----------------------------------------------------------------------------------------
 | Delete |  DELETE   |     Remove shoe from wishlist    |            7,8              |
----------------------------------------------------------------------------------------
 | Update |   POST    |        Log in to account         |              7              |
----------------------------------------------------------------------------------------
 |  Read  |    GET    |      Get a shoe by shoe id       | 1,2,3,4,5,10,11, 12, 13, 15 |
----------------------------------------------------------------------------------------
 | Create |    POST   | Send/receive emails to/from user |            9, 14            |
----------------------------------------------------------------------------------------
 
 
 ***Don't forget to set up your Issues, Milestones, and Project Board!***
