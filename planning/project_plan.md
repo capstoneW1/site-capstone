@@ -93,16 +93,16 @@ Describe your app's data model using diagrams or tables
 
 List the API endpoints you will need to implement.
 
-|  CRUD  | HTTP Verb |            Description           |        User Stories         |
-|---|---|---|---|
-|  Read  |    GET    |    Get a shoe by search term     |       1,2,3,5,10,11,15      |
-| Create |    POST   |     Create a new user account    |              7              |
-|  Read  |    GET    |        List trending shoes       |       1,2,4,5,6,10,11       |
-| Update |   POST    |      Add shoe to wishlist        |            7,8              |
-| Delete |  DELETE   |     Remove shoe from wishlist    |            7,8              |
-| Update |   POST    |        Log in to account         |              7              |
-|  Read  |    GET    |      Get a shoe by shoe id       | 1,2,3,4,5,10,11, 12, 13, 15 |
-| Create |    POST   | Send/receive emails to/from user |            9, 14            |
+|  CRUD  | HTTP Verb |            Description           | Route | Request Body | Response Body |        User Stories         |
+|---|---|---|---|---|---|---|
+|  Read  |    GET    |    Get a shoe by search term     | BASE_URL/search?search_term | Search_term : STRING | Shoes: [{‘shoe’}] |        1,2,3,5,10,11,15      |
+| Create |    POST   |     Create a new user account    | BASE_URL/auth/register | first_name: STRING, last_name: STRING, email: STRING, password: STRING, Country: STRING, Shoe_size: Number | { id: int, email: string, first_name: string, last_name: string, country: string, shoe_size: int } |               7              |
+|  Read  |    GET    |        List trending shoes       | BASE_URL/trending | | {‘trending’: [{‘shoe’}]} |        1,2,4,5,6,10,11       |
+| Update |   POST    |      Add shoe to wishlist        | BASE_URL/wishlist | Shoe_id: number | |            7,8              |
+| Delete |  DELETE   |     Remove shoe from wishlist    | BASE_URL/wishlist | Shoe_id: number | |            7,8              |
+| Update |   POST    |        Log in to account         | BASE_URL/auth/login | Email: STRING, Password: STRING | { id: int, email: string, first_name: string, last_name: string } |               7              |
+|  Read  |    GET    |      Get a shoe by shoe id       | BASE_URL/product/:id | Shoe_id: number | Shoes: [{‘shoe’}] |  1,2,3,4,5,10,11, 12, 13, 15 |
+| Create |    POST   | Send/receive emails to/from user | BASE_URL/email | “Successfully sent email” |           9, 14            |
 
 
 ***Don't forget to set up your Issues, Milestones, and Project Board!***
