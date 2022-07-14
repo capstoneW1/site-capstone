@@ -60,20 +60,23 @@ Describe your app's data model using diagrams or tables
 **User table**
 | Column name |  type  |      description     |
 |---|---|---|
-|     id      | number |     Primary key      |
-|    email    | string | User’s email address |
-|   password  | string |    User’s password   |
-|  first_name | string |   User’s first name  |
-|  last_name  | string |   User’s last name   |
+|     id      |      number     |       Primary key        |
+|    email    |      string     |   User’s email address   |
+|   password  |      string     |      User’s password     |
+|  first_name |      string     |     User’s first name    |
+|  last_name  |      string     |     User’s last name     |
+|   country   | string(optional)|      User's country      |
+|  shoe_size  | number(optional)| User's default shoe size |
 
 
 
 **User Wishlist item**
 | Column name |  type  |                     description                   |
 |---|---|---|
-|     id      | number |                    Primary key                    |
-|   user_id   | number | Foreign key references User(id) on delete cascade |
-|   shoe_id   | number | Foreign key references Shoe(id) on delete cascade |
+|     id      |   number  |                    Primary key                    |
+|   user_id   |   number  | Foreign key references User(id) on delete cascade |
+|   shoe_id   |   number  | Foreign key references Shoe(id) on delete cascade |
+|  created_at | Timestamp |         Time the wishlist item was created        |
 
 
 
