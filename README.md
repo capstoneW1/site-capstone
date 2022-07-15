@@ -4,7 +4,7 @@ SITE Course Year: **2022**
 
 Cohort: **Workday**
 
-Team Member Names:**Jenny Lee, Aligary Patawaran, Dylan Cocoletzi**
+Team Member Names: **Jenny Lee, Aligary Patawaran, Dylan Cocoletzi**
 
 Mentors Names: **Pavel Ivanov, Tre Kendrick, Michelle Koo**
 
