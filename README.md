@@ -10,8 +10,8 @@ Mentors Names: **Pavel Ivanov, Tre Kendrick, Michelle Koo**
 
 Project Code Repository Links
 
-* [Frontend Repo Link]()
-* [Backend Repo Link]()
+* [Frontend Repo Link](https://github.com/capstoneW1/site-capstone-frontend)
+* [Backend Repo Link](https://github.com/capstoneW1/site-capstone-backend)
 
 ## Project Overview
 
